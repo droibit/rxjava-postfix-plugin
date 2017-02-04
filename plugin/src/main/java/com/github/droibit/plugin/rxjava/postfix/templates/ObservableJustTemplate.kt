@@ -13,7 +13,7 @@ import com.intellij.openapi.util.Conditions.and
 import com.intellij.psi.PsiElement
 
 class ObservableJustTemplate : StringBasedPostfixTemplate(
-        "justAsObservable",
+        "ojust",
         "Observable.just(expr)",
         selectorAllExpressionsWithCurrentOffset(and(IS_NON_NULL, IS_NON_VOID))) {
 

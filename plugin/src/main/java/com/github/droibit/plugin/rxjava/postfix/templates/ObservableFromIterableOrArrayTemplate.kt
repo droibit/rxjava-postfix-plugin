@@ -12,7 +12,7 @@ import com.intellij.psi.PsiExpression
 
 
 class ObservableFromIterableOrArrayTemplate : StringBasedPostfixTemplate(
-        "fromAsObservable",
+        "ofrom",
         "Observable.fromIterable/Array(expr)",
         selectorTopmost(IS_ITERABLE_OR_ARRAY)) {
 

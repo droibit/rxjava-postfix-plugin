@@ -9,7 +9,6 @@ public class Main {
 
     public static void main(String[] args) {
         final List<String> textList = Arrays.asList("a", "b", "c");
-
         Observable.fromIterable(textList)
                 .forEach(System.out::println);
 
