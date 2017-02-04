@@ -1,0 +1,6 @@
+public class Foo {
+  void m() {
+    String text = "text";
+    <spot>text</spot>$key
+  }
+}

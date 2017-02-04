@@ -16,5 +16,9 @@ public class Main {
         final String[] textArray = {"a", "b", "c"};
         Observable.fromArray(textArray)
                 .forEach(System.out::println);
+
+        final String text = "text";
+        Observable.just(text)
+                .forEach(System.out::println);
     }
 }
