@@ -1,6 +1,6 @@
 package com.github.droibit.plugin.rxjava.postfix.templates
 
-import com.github.droibit.plugin.rxjava.postfix.utils.RxJava2ClassName.OBSERVABLE
+import com.github.droibit.plugin.rxjava.postfix.utils.RxJavaClassName.OBSERVABLE
 import com.github.droibit.plugin.rxjava.postfix.utils.RxJavaPostfixTemplatesUtils.getStaticPrefix
 import com.intellij.codeInsight.template.Template
 import com.intellij.codeInsight.template.Template.Property.USE_STATIC_IMPORT_IF_POSSIBLE

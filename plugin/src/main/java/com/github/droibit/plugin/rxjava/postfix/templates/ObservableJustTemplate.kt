@@ -1,6 +1,6 @@
 package com.github.droibit.plugin.rxjava.postfix.templates
 
-import com.github.droibit.plugin.rxjava.postfix.utils.RxJava2ClassName.OBSERVABLE
+import com.github.droibit.plugin.rxjava.postfix.utils.RxJavaClassName.OBSERVABLE
 import com.github.droibit.plugin.rxjava.postfix.utils.RxJavaPostfixTemplatesUtils
 import com.github.droibit.plugin.rxjava.postfix.utils.RxJavaPostfixTemplatesUtils.IS_NON_NULL
 import com.intellij.codeInsight.template.Template
