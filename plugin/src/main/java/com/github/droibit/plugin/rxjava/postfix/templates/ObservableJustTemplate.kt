@@ -28,5 +28,4 @@ class ObservableJustTemplate : StringBasedPostfixTemplate(
         val fqMethod = RxJavaPostfixTemplatesUtils.getStaticPrefix(OBSERVABLE.className, "just", element)
         return "$fqMethod(\$expr\$)\$END\$"
     }
-
 }

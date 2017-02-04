@@ -19,5 +19,8 @@ public class Main {
         final String text = "text";
         Observable.just(text)
                 .forEach(System.out::println);
+
+        Observable.error(new RuntimeException())
+                .subscribe();
     }
 }
