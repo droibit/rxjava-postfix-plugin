@@ -1,12 +1,13 @@
 package com.github.droibit.plugin.rxjava.postfix
 
+import com.github.droibit.plugin.rxjava.postfix.templates.ObservableFromIterableTemplate
 import com.intellij.codeInsight.template.postfix.templates.JavaPostfixTemplateProvider
-import com.intellij.codeInsight.template.postfix.templates.PostfixTemplate
 
 class RxJava2PostfixTemplateProvider : JavaPostfixTemplateProvider() {
 
+    private val templates = hashSetOf(
+            ObservableFromIterableTemplate()
+    )
 
-    override fun getTemplates(): MutableSet<PostfixTemplate> {
-        return super.getTemplates()
-    }
+    override fun getTemplates() = templates
 }
