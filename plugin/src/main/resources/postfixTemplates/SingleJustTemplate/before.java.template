@@ -1,6 +1,6 @@
 public class Foo {
   void m() {
     String text = "text";
-    Observable.just(text)
+    <spot>text</spot>$key
   }
 }
