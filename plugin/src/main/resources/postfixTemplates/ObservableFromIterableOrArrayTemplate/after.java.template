@@ -1,6 +1,11 @@
 public class Foo {
   void m() {
+    // iterable
     List<String> texts = Arrays.asList("a", "b", "c");
     Observable.fromIterable(texts)
+
+    // array
+    String[] texts = {"a", "b", "c"};
+    Observable.fromArray(texts)
   }
 }

@@ -8,9 +8,13 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
-        final List<String> texts = Arrays.asList("a", "b", "c");
+        final List<String> textList = Arrays.asList("a", "b", "c");
 
-        Observable.fromIterable(texts)
+        Observable.fromIterable(textList)
+                .forEach(System.out::println);
+
+        final String[] textArray = {"a", "b", "c"};
+        Observable.fromArray(textArray)
                 .forEach(System.out::println);
     }
 }
