@@ -1,9 +1,6 @@
 package com.github.droibit.plugin.rxjava.postfix
 
-import com.github.droibit.plugin.rxjava.postfix.templates.ObservableErrorTemplate
-import com.github.droibit.plugin.rxjava.postfix.templates.ObservableFromIterableOrArrayTemplate
-import com.github.droibit.plugin.rxjava.postfix.templates.ObservableJustTemplate
-import com.github.droibit.plugin.rxjava.postfix.templates.SingleJustTemplate
+import com.github.droibit.plugin.rxjava.postfix.templates.*
 import com.intellij.codeInsight.template.postfix.templates.JavaPostfixTemplateProvider
 
 class RxJava2PostfixTemplateProvider : JavaPostfixTemplateProvider() {
@@ -12,7 +9,8 @@ class RxJava2PostfixTemplateProvider : JavaPostfixTemplateProvider() {
             ObservableFromIterableOrArrayTemplate(),
             ObservableJustTemplate(),
             ObservableErrorTemplate(),
-            SingleJustTemplate()
+            SingleJustTemplate(),
+            SingleErrorTemplate()
     )
 
     override fun getTemplates() = templates

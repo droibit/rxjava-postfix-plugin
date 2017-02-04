@@ -1,6 +1,7 @@
 package com.github.droibit.plugin.rxjava.postfix.example;
 
 import io.reactivex.Observable;
+import io.reactivex.Single;
 
 import java.util.Arrays;
 import java.util.List;
@@ -21,6 +22,9 @@ public class Main {
                 .forEach(System.out::println);
 
         Observable.error(new RuntimeException())
+                .subscribe();
+
+        Single.error(new RuntimeException())
                 .subscribe();
     }
 }
