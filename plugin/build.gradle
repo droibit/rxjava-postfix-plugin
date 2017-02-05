@@ -10,15 +10,15 @@ def isCi = 'true'.equals(System.getenv('CI'))
 
 intellij {
     version '2016.1.3'
-    pluginName 'truth-postfix-plugin'
+    pluginName 'rxjava-postfix-plugin'
 
     updateSinceUntilBuild = false
     sameSinceUntilBuild = false
     downloadSources = !isCi
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_8
-targetCompatibility = JavaVersion.VERSION_1_8
+sourceCompatibility = JavaVersion.VERSION_1_6
+targetCompatibility = JavaVersion.VERSION_1_6
 
 
 dependencies {
