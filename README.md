@@ -1,6 +1,34 @@
 # RxJava Postfix Completion Plugin
 [![Build Status](https://travis-ci.org/droibit/rxjava-postfix-plugin.svg?branch=develop)](https://travis-ci.org/droibit/rxjava-postfix-plugin)
 
+Postfix Completion with RxJava to use in IntelliJ Idea/Android Studio.  
+**Only support RxJava2.**
+
+## Available Templates
+
+#### Observable
+
+|Postfix Expression|Description|Example|
+|------------------|-----------|-------|
+|.ojust|Creates Observable from item.|Observable.just(item)|
+|.ofrom|Creates Observable from iterable/array|Observable.fromIterable(texts)  Observable.fromArray(texts)|
+|.oerror|Creates Observable from throwable|Observable.error(throwable)|
+
+#### Flowable
+
+|Postfix Expression|Description|Example|
+|------------------|-----------|-------|
+|.fjust|Creates Flowable from item.|Flowable.just(item)|
+|.ffrom|Creates Flowable from iterable/array|Flowable.fromIterable(texts)  Flowable.fromArray(texts)|
+|.ferror|Creates Flowable from throwable|Flowable.error(throwable)|
+
+#### Single
+
+|Postfix Expression|Description|Example|
+|------------------|-----------|-------|
+|.sjust|Creates Single from item.|Single.just(item)|
+|.serror|Creates Single from throwable|Single.error(throwable)|
+
 ## License
 
     Copyright 2016 Shinya Kumagai
