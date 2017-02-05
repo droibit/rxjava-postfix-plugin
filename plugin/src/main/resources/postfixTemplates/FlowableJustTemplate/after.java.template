@@ -1,0 +1,6 @@
+public class Foo {
+  void m() {
+    String text = "text";
+    Flowable.just(text)
+  }
+}

@@ -1,5 +1,6 @@
 package com.github.droibit.plugin.rxjava.postfix.example;
 
+import io.reactivex.Flowable;
 import io.reactivex.Observable;
 import io.reactivex.Single;
 
@@ -20,6 +21,8 @@ public class Main {
         final String text = "text";
         Observable.just(text)
                 .forEach(System.out::println);
+        Flowable.just(text)
+                .forEach(System.out::println)
 
         Observable.error(new RuntimeException())
                 .subscribe();
