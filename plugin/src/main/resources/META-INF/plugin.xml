@@ -1,19 +1,81 @@
 <idea-plugin version="2">
   <id>com.github.droibit.plugin.rxjava.postfix</id>
   <name>RxJava Postfix Plugin</name>
-  <version>0.0.1</version>
+  <version>0.1.0</version>
   <vendor email="roomful.rooms@gmail.com" url="https://github.com/droibit">Shinya Kumagai</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      Postfix Completion with RxJava2 to use in IntelliJ Idea/Android Studio.<br>
+      <br/>
+        Available templates:<br/>
+        <p>
+          <b>Observable</b>
+          <ul>
+            <li>
+              <b>.ojust</b><br/>
+              Creates Observable from item.<br/>
+              <em>Observable.just(expr)</em>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <b>.ofrom</b><br/>
+              Creates Observable from iterable/array.<br/>
+              <em>Observable.fromIterable(expr)</em><br/>
+              <em>Observable.fromArray(expr)</em>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <b>.oerror</b><br/>
+              Creates Observable from throwable.<br/>
+              <em>Observable.error(expr)</em>
+            </li>
+          </ul>
+        </p>
+        <p>
+          <b>Flowable</b>
+          <ul>
+            <li>
+              <b>.fjust</b><br/>
+              Creates Flowable from item.<br/>
+              <em>Flowable.just(expr)</em>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <b>.ffrom</b><br/>
+              Creates Flowable from iterable/array.<br/>
+              <em>Flowable.fromIterable(expr)</em><br/>
+              <em>Flowable.fromArray(expr)</em>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <b>.ferror</b><br/>
+              Creates Flowable from throwable.<br/>
+              <em>Flowable.error(expr)</em>
+            </li>
+          </ul>
+        </p>
+        <p>
+        <b>Single</b>
+          <ul>
+            <li>
+              <b>.sjust</b><br/>
+              Creates Single from item.<br/>
+              <em>Single.just(expr)</em>
+            </li>
+          </ul>
+          <ul>
+            <li>
+              <b>.serror</b><br/>
+              Creates Single from throwable.<br/>
+              <em>Single.error(expr)</em>
+            </li>
+          </ul>
+        </p>
     ]]></description>
-
-  <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
-    ]]>
-  </change-notes>
 
   <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
   <idea-version since-build="145.0"/>
