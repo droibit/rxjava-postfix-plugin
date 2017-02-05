@@ -13,9 +13,13 @@ public class Main {
         final List<String> textList = Arrays.asList("a", "b", "c");
         Observable.fromIterable(textList)
                 .forEach(System.out::println);
+        Flowable.fromIterable(textList)
+                .forEach(System.out::println);
 
         final String[] textArray = {"a", "b", "c"};
         Observable.fromArray(textArray)
+                .forEach(System.out::println);
+        Flowable.fromArray(textArray)
                 .forEach(System.out::println);
 
         final String text = "text";

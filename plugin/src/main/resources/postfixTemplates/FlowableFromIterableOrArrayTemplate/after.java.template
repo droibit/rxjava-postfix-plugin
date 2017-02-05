@@ -1,0 +1,11 @@
+public class Foo {
+  void m() {
+    // iterable
+    List<String> texts = Arrays.asList("a", "b", "c");
+    Flowable.fromIterable(texts)
+
+    // array
+    String[] texts = {"a", "b", "c"};
+    Flowable.fromArray(texts)
+  }
+}
