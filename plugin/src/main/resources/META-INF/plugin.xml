@@ -26,7 +26,7 @@
   <extensions defaultExtensionNs="com.intellij">
       <codeInsight.template.postfixTemplateProvider
               language="JAVA"
-              implementationClass="com.github.droibit.plugin.rxjava.postfix.RxJava2PostfixTemplateProvider" />
+              implementationClass="com.github.droibit.plugin.rxjava.postfix.RxJavaPostfixTemplateProvider" />
 
   </extensions>
 

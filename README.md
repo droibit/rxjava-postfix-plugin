@@ -1,4 +1,4 @@
-# RxJava2 Postfix Completion Plugin
+# RxJava Postfix Completion Plugin
 [![Build Status](https://travis-ci.org/droibit/rxjava-postfix-plugin.svg?branch=develop)](https://travis-ci.org/droibit/rxjava-postfix-plugin)
 
 ## License
