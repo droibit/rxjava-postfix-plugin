@@ -22,12 +22,15 @@ public class Main {
         Observable.just(text)
                 .forEach(System.out::println);
         Flowable.just(text)
-                .forEach(System.out::println)
+                .forEach(System.out::println);
 
         Observable.error(new RuntimeException())
                 .subscribe();
 
         Single.error(new RuntimeException())
+                .subscribe();
+
+        Flowable.error(new RuntimeException())
                 .subscribe();
     }
 }

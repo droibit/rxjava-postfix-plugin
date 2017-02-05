@@ -10,6 +10,7 @@ class RxJavaPostfixTemplateProvider : JavaPostfixTemplateProvider() {
             ObservableJustTemplate(),
             ObservableErrorTemplate(),
             FlowableJustTemplate(),
+            FlowableErrorTemplate(),
             SingleJustTemplate(),
             SingleErrorTemplate()
     )
