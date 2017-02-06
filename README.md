@@ -11,23 +11,23 @@ Postfix Completion with RxJava to use in IntelliJ Idea/Android Studio.
 |Postfix Expression|Description|Example|
 |------------------|-----------|-------|
 |.ojust|Creates Observable from item.|Observable.just(item)|
-|.ofrom|Creates Observable from iterable/array|Observable.fromIterable(texts)  Observable.fromArray(texts)|
-|.oerror|Creates Observable from throwable|Observable.error(throwable)|
+|.ofrom|Creates Observable from iterable/array.|Observable.fromIterable(texts)  Observable.fromArray(texts)|
+|.oerror|Creates Observable from throwable.|Observable.error(throwable)|
 
 #### Flowable
 
 |Postfix Expression|Description|Example|
 |------------------|-----------|-------|
 |.fjust|Creates Flowable from item.|Flowable.just(item)|
-|.ffrom|Creates Flowable from iterable/array|Flowable.fromIterable(texts)  Flowable.fromArray(texts)|
-|.ferror|Creates Flowable from throwable|Flowable.error(throwable)|
+|.ffrom|Creates Flowable from iterable/array.|Flowable.fromIterable(texts)  Flowable.fromArray(texts)|
+|.ferror|Creates Flowable from throwable.|Flowable.error(throwable)|
 
 #### Single
 
 |Postfix Expression|Description|Example|
 |------------------|-----------|-------|
 |.sjust|Creates Single from item.|Single.just(item)|
-|.serror|Creates Single from throwable|Single.error(throwable)|
+|.serror|Creates Single from throwable.|Single.error(throwable)|
 
 ## License
 
